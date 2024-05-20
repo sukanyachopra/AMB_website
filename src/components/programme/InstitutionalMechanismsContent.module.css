@@ -1,0 +1,26 @@
+.section-content {
+  background-color: var(--theme-color-2);
+  padding: 2rem;
+  font-size: 0.9rem;
+}
+
+.table {
+  width: 100%;
+  margin-top: 2rem;
+}
+.table,
+.table tr,
+.table td,
+.table th {
+  padding: 10px;
+  padding-inline: 15px;
+  border: none;
+  border-collapse: separate;
+  border-collapse: collapse;
+  border: 1px solid #fff;
+}
+
+.table th {
+  background-color: var(--theme-color);
+  color: #fff;
+}

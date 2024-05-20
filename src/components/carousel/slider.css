@@ -1,0 +1,152 @@
+.image-caption-fp {
+  position: absolute;
+  top: 38%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  text-align: left;
+  width: max-content;
+}
+
+.top-caption-fp {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-caption-fp {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.separator-caption-fp {
+  background-color: white;
+  width: 30px;
+  height: 1px;
+}
+
+.subheading-caption-fp {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.image-caption-fp > hr {
+  height: 2px;
+  background-color: white;
+}
+
+.module-progressbar {
+  border-radius: 1px;
+}
+
+.tb-progress-bar-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.tb-progress-bar {
+  margin-bottom: 10px;
+}
+
+.tb-progress-bar-label {
+  font-style: normal;
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.tb-progress-bar-bg {
+  display: block;
+  height: 20px;
+  border-radius: 1px;
+  background-color: #e0e0e0;
+  position: relative;
+  overflow: hidden;
+}
+
+.tb-progress-bar-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #ff2300;
+  width: var(--progress-width, 0%);
+  transition: width 0.5s ease-in-out;
+}
+
+@media (max-width: 1030px) {
+  .image-caption-fp {
+    left: 50%;
+  }
+}
+
+@media (max-width: 420px) {
+  .image-caption-fp {
+    width: 250px;
+    height: auto;
+  }
+
+  .heading-caption-fp {
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .subheading-caption-fp {
+    font-weight: 600;
+    font-size: 0.8rem;
+    /* word-break: normal; */
+    text-align: center;
+  }
+}
+
+@media (max-width: 330px) {
+  .image-caption-fp {
+    width: 200px;
+    height: auto;
+  }
+}
+
+.image-caption-fp-other {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+}
+
+.top-caption-fp-other {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-caption-fp-other {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.subheading-caption-fp-other {
+  font-weight: 500;
+  font-size: 1.2rem;
+}

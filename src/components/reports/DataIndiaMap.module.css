@@ -1,0 +1,123 @@
+.HoverInfo {
+    transform: translateY(-2rem);
+    -webkit-transform: translateY(-2rem);
+    -moz-transform: translateY(-2rem);
+    -ms-transform: translateY(-2rem);
+    -o-transform: translateY(-2rem);
+}
+
+.color-very-low {
+    background-color: rgb(200, 25, 25, 0.75) !important;
+    border: 2px solid rgb(200, 25, 25) !important;
+    color: #fff !important;
+    /* color: #000 !important; */
+    /* color: #fff; */
+}
+
+.color-low {
+    background-color: rgb(75, 192, 192, 0.75) !important;
+    border: 2px solid rgb(75, 192, 192) !important;
+    /* color: #fff !important; */
+    color: #000 !important;
+}
+
+.color-medium {
+    background-color: rgb(255, 205, 50, 0.75) !important;
+
+    border: 2px solid rgb(255, 205, 50) !important;
+    color: #fff !important;
+    color: #000 !important;
+}
+.color-high {
+    background-color: rgb(0, 128, 0, 0.75) !important;
+    border: 2px solid rgb(0, 128, 0) !important;
+    color: #fff !important;
+    /* color: #000 !important; */
+    /* color: #fff; */
+    /* color: #fff; */
+}
+.color-normalized {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    border: 2px solid #000 !important;
+    color: #fff;
+    color: #fff !important;
+    /* color: #000 !important; */
+}
+.no-data {
+    background-color: rgb(128, 128, 128, 0.75) !important;
+    border: 2px solid rgb(128, 128, 128) !important;
+    color: #fff !important;
+}
+
+.hover-component {
+    transform: translateY(-10rem) !important;
+    -webkit-transform: translateY(-10rem) !important;
+    -moz-transform: translateY(-10rem) !important;
+    -ms-transform: translateY(-10rem) !important;
+    -o-transform: translateY(-10rem) !important;
+    padding: 10px;
+    /*background: #fff;
+    */
+
+    min-width: fit-content;
+    font-weight: 600;
+    font-size: 1rem;
+    /*color: ;
+    */
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.map-container {
+    width: 600px;
+    height: auto;
+    margin: 2rem 1rem;
+    /* padding: 2rem; */
+    border: 2px solid var(--theme-color);
+    background-color: #fff;
+    overflow: hidden;
+
+    border-radius: 7.5px;
+    margin-left: auto;
+    -webkit-border-radius: 7.5px;
+    -moz-border-radius: 7.5px;
+    -ms-border-radius: 7.5px;
+    -o-border-radius: 7.5px;
+}
+
+.map-container svg {
+    position: relative !important;
+}
+
+path {
+    /* fill: red; */
+    /* stroke: white; */
+}
+
+.india-map-legend-container {
+    margin: 1rem;
+}
+.india-map-legend-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* font-size:0.75rem; */
+}
+.india-map-legend-text > :first-child {
+    color: #c81919;
+}
+.india-map-legend-text > :last-child {
+    color: #008000;
+}
+
+.india-map-legend {
+    /* margin-top: 10px; */
+    height: 10px;
+    background-color: black;
+    background: linear-gradient(90deg, #c81919, #4bc0c0, #ffcd32, #008000);
+}

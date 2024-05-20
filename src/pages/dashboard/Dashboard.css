@@ -1,0 +1,74 @@
+.dashboard-container {
+  left: 0;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.content-dashboard {
+  display: flex;
+  flex-wrap: wrap !important;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.row-dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  gap: 15px;
+  width: 100%;
+  overflow: auto;
+  align-items: center;
+}
+
+.subHeading-dashboard {
+  font-weight: 600;
+  padding-bottom: 0.5em;
+}
+
+.form-dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.form-dashboard > input[type="file"] {
+  width: max-content;
+  background-color: none;
+  font-size: 0.8em;
+}
+
+.form-dashboard > input[type="file"]::file-selector-button {
+  border: none;
+  background-color: #ca3f3f;
+  color: white;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 1.1em !important;
+}
+
+.calendar-dashboard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calendar-dashboard > label {
+  font-weight: 600;
+}
+
+.button-upload-dashboard {
+  width: max-content;
+  border: none;
+  padding: 8px;
+  border-radius: 0;
+  background-color: #ca3f3f;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.9em !important;
+}

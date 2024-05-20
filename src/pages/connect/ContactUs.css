@@ -1,0 +1,9 @@
+.contact-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 2rem 5rem;
+  margin: 35px auto;
+  gap: 2.5rem;
+}

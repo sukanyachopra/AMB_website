@@ -1,0 +1,8 @@
+#partner-container {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px !important;
+  margin: 35px auto;
+}

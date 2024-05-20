@@ -1,0 +1,27 @@
+.heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+  padding-inline: 2rem;
+}
+.main-heading-content {
+  color: #fff;
+  text-align: center;
+}
+
+.main-heading-content > * {
+  padding: 0.75rem 2rem;
+  text-transform: capitalize !important;
+}
+.location-text {
+  background-color: darkslategray;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.heading-text {
+  background-color: var(--theme-color);
+  font-size: 1.25rem;
+  font-weight: 500;
+}

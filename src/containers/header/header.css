@@ -1,0 +1,175 @@
+/* CSS to hide amb__header-sticky when scrolling */
+.amb__header-sticky {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: transform 0.3s;
+  position: fixed;
+  background-color: #ffffff;
+  padding: 10px;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  z-index: 9999;
+}
+
+.amb__header-sticky.hide-on-scroll {
+  transform: translateY(-100%);
+}
+
+.amb__navbar {
+  margin-top: 120px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 25px !important;
+}
+
+.navbar-toggler {
+  text-decoration: none;
+  width: max-content;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-logo {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 40px;
+}
+
+/* CSS for amb__navbar after scrolling */
+.amb__navbar.scrolled {
+  position: fixed;
+  width: 100%;
+  margin-top: 0px;
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+  background-color: rgba(255, 255, 255, 0.692);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.amb__navbar.scrolled:hover {
+  color: red;
+  background-color: transparent;
+}
+
+.amb__sh-emblem {
+  height: 100px;
+}
+
+.amb__sh-logo {
+  height: 100px;
+}
+
+.amb__sh-poshan {
+  height: 100px;
+}
+
+.amb__sh-nhm {
+  height: 100px;
+}
+
+.basic-navbar-nav a {
+  color: black !important;
+  background-color: transparent;
+}
+
+.basic-navbar-nav a:hover {
+  color: #ca3f3f !important;
+  outline: none;
+  background-color: transparent;
+}
+
+.basic-navbar-nav a:active {
+  color: red;
+  outline: none;
+  background-color: transparent;
+}
+
+.basic-navbar-nav.scrolled a {
+  color: black !important;
+  background-color: transparent;
+}
+
+.basic-navbar-nav.scrolled a:hover {
+  color: red !important;
+  background-color: transparent;
+}
+
+.navbar-main {
+  color: #ffffff !important;
+  background-color: transparent;
+}
+
+.reports-dropdown {
+  align-items: start !important;
+  justify-content: start;
+  text-align: left;
+}
+
+@media (min-width: 300px) and (max-width: 480px) {
+  .amb__sh-emblem {
+    height: 75px;
+  }
+
+  .amb__sh-logo {
+    height: 75px;
+  }
+
+  .amb__sh-poshan {
+    height: 75px;
+  }
+
+  .amb__sh-nhm {
+    height: 75px;
+  }
+
+  .amb__navbar {
+    margin-top: 90px;
+  }
+
+  .middle-logo {
+    margin: 0 5px 0 5px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  .amb__sh-emblem {
+    height: 60px;
+  }
+
+  .amb__sh-logo {
+    height: 60px;
+  }
+
+  .amb__sh-poshan {
+    height: 60px;
+  }
+
+  .amb__sh-nhm {
+    height: 60px;
+  }
+
+  .amb__navbar {
+    margin-top: 90px;
+  }
+
+  .middle-logo {
+    margin: 0 5px 0 5px;
+    gap: 5px;
+  }
+}
+
+.justify-content-center > * {
+  margin-inline: 0.75rem;
+}

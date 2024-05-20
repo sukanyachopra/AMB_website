@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+.regisheading {
+  width: fit-content;
+  padding: 1%;
+  margin: 1% auto;
+  background-color: red;
+  color: white;
+}
+
+.regisformcontainer {
+  background-color: white;
+  width: 50%;
+  height: 100%;
+  border: 10px solid red;
+  padding: 1%;
+  margin: 1% auto;
+  border-radius: 30px;
+}
+
+.regisformele {
+  padding: 1%;
+  margin: 1% auto;
+  font-size: 20px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.regisformele input {
+  margin: 2%;
+  padding: 1%;
+  border: 5px solid red;
+  width: 70%;
+  font-size: 100%;
+  border-radius: 10px;
+}
+
+.regislabel {
+  width: 200px;
+  display: inline-block;
+  padding: 2%;
+}
+
+.regisbutton {
+  margin: 1% auto;
+  display: block;
+  padding: 1%;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.regisbutton:hover {
+  background-color: #a70000;
+}
+
+.success {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  width: 50%;
+  margin: 1% auto;
+}
+
+.success p {
+  margin: 0;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* For mobile devices */
+  .regisheading {
+    text-align: center;
+    font-size: 50%;
+  }
+
+  .regisformcontainer {
+    width: 90%;
+    border: 5px solid red;
+    border-radius: 15px;
+  }
+
+  .regisformele input {
+    width: 100%;
+  }
+
+  .regislabel {
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .valid {
+    display: none;
+  }
+
+  .regisbutton {
+    width: 50%;
+  }
+
+  .success {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* For tablets */
+  .regisformcontainer {
+    width: 70%;
+  }
+
+  .regisformele input {
+    width: 100%;
+  }
+
+  .regislabel {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .valid {
+    display: none;
+  }
+
+  .regisbutton {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1720px) {
+  /* For desktops and laptops */
+  .regisformcontainer {
+    width: 50%;
+  }
+
+  .regisformele input {
+    width: 50%;
+  }
+
+  .regislabel {
+    width: 35%;
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  .regisbutton {
+    width: 30%;
+  }
+
+  .success {
+    width: 100%;
+  }
+}

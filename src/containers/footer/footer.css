@@ -1,0 +1,25 @@
+.amb__footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+  height: max-content;
+}
+
+.amb__logo-unicef {
+  width: 100px;
+  height: 30px;
+}
+
+.amb__logo-nutrition {
+  width: 180px;
+  height: 30px;
+}
+
+.amb__logo-ieg {
+  width: 180px;
+}

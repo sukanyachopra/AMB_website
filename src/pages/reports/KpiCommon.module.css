@@ -1,0 +1,14 @@
+.main-page-container {
+    margin-bottom: 10rem;
+}
+.page-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* margin-bottom: 1rem; */
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #dc3545;
+    margin-top: 1rem;
+    padding: 1rem;
+}
