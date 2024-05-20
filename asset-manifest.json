@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/AMB_website/static/css/main.3e36d9d0.css",
+    "main.js": "/AMB_website/static/js/main.4b75fac0.js",
+    "static/media/eligible-new1-635x520-1.png": "/AMB_website/static/media/eligible-new1-635x520-1.48506115b39349abb697.png",
+    "static/media/slide-6.jpg": "/AMB_website/static/media/slide-6.da21f56a27b411e29f02.jpg",
+    "static/media/slide-7.jpg": "/AMB_website/static/media/slide-7.e0c982f82d3293e0e835.jpg",
+    "static/media/LogoAmb.png": "/AMB_website/static/media/LogoAmb.26dc7e954e1ca26ea933.png",
+    "static/media/poshan.png": "/AMB_website/static/media/poshan.39d9adc0529d648b6be5.png",
+    "static/media/slide-3.jpg": "/AMB_website/static/media/slide-3.a46870df96b6d25df414.jpg",
+    "static/media/slide-5.jpg": "/AMB_website/static/media/slide-5.ba0b125405ec6bd1516c.jpg",
+    "static/media/slide-4.jpg": "/AMB_website/static/media/slide-4.cadc078be821f53086ff.jpg",
+    "static/media/slide-2.jpg": "/AMB_website/static/media/slide-2.429bee452979f1723be5.jpg",
+    "static/media/slide-1.jpg": "/AMB_website/static/media/slide-1.4fca846e3b6c558c96dd.jpg",
+    "static/media/emblem.png": "/AMB_website/static/media/emblem.7c09ecc3639aeaff3cf3.png",
+    "static/media/NHM-logo.png": "/AMB_website/static/media/NHM-logo.5573f34ac6b491cf9bfe.png",
+    "static/media/UNICEFLogo.png": "/AMB_website/static/media/UNICEFLogo.a97c0fb66e444d185799.png",
+    "static/media/nutritionlogo.png": "/AMB_website/static/media/nutritionlogo.1337fe99cb97a08d9426.png",
+    "index.html": "/AMB_website/index.html",
+    "main.3e36d9d0.css.map": "/AMB_website/static/css/main.3e36d9d0.css.map",
+    "main.4b75fac0.js.map": "/AMB_website/static/js/main.4b75fac0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e36d9d0.css",
+    "static/js/main.4b75fac0.js"
+  ]
+}
