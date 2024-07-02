@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AMB_website/static/css/main.3e36d9d0.css",
-    "main.js": "/AMB_website/static/js/main.f273e84d.js",
+    "main.js": "/AMB_website/static/js/main.5a8aa3f1.js",
     "static/media/eligible-new1-635x520-1.png": "/AMB_website/static/media/eligible-new1-635x520-1.48506115b39349abb697.png",
     "static/media/slide-6.jpg": "/AMB_website/static/media/slide-6.da21f56a27b411e29f02.jpg",
     "static/media/slide-7.jpg": "/AMB_website/static/media/slide-7.e0c982f82d3293e0e835.jpg",
@@ -18,10 +18,10 @@
     "static/media/nutritionlogo.png": "/AMB_website/static/media/nutritionlogo.1337fe99cb97a08d9426.png",
     "index.html": "/AMB_website/index.html",
     "main.3e36d9d0.css.map": "/AMB_website/static/css/main.3e36d9d0.css.map",
-    "main.f273e84d.js.map": "/AMB_website/static/js/main.f273e84d.js.map"
+    "main.5a8aa3f1.js.map": "/AMB_website/static/js/main.5a8aa3f1.js.map"
   },
   "entrypoints": [
     "static/css/main.3e36d9d0.css",
-    "static/js/main.f273e84d.js"
+    "static/js/main.5a8aa3f1.js"
   ]
 }
